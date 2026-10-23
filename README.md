@@ -1,11 +1,11 @@
 # Devflow Care
 
-Manutenção para Windows com a identidade da Devflow. Primeira distribuição **beta 1.7.0-beta.1**, para testes com amigos.
+Manutenção para Windows com a identidade da Devflow. Versão **beta 1.7.1-beta.1**, para testes com amigos.
 
 ## Baixar
 
-- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.7.0-beta.1/Devflow-Care-1.7.0-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
-- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.7.0-beta.1/Devflow-Care-1.7.0-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
+- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.7.1-beta.1/Devflow-Care-1.7.1-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
+- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.7.1-beta.1/Devflow-Care-1.7.1-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
 - [Todas as versões e notas](https://github.com/Zkyzer/devflow-care/releases).
 
 Requer Windows 10 ou 11 x64, .NET Framework 4.8 e Windows PowerShell 5.1. O instalador verifica Windows e .NET; não baixa dependências automaticamente.
@@ -21,7 +21,7 @@ Requer Windows 10 ou 11 x64, .NET Framework 4.8 e Windows PowerShell 5.1. O inst
 
 Abrir o Care não inicia uma limpeza. Use **Analisar arquivos** para conferir a prévia e **Iniciar manutenção** para executar. A manutenção pede a autorização de administrador do Windows; uma autorização com outra conta é recusada.
 
-Em **Sobre o Care**, use **Verificar atualizações**. No canal beta, o aplicativo consulta as versões públicas apenas quando você clica. Havendo uma versão nova, oferece baixar e abrir o instalador após conferir tamanho e SHA-256. A instalação mantém preferências e histórico. Na versão portátil, o MSI instala a nova cópia no menu Iniciar; substitua ou remova seu atalho antigo manualmente.
+Em **Sobre o Care**, use **Verificar atualizações**. No canal beta, o aplicativo consulta as versões públicas apenas quando você clica. Havendo uma versão nova, oferece baixar e abrir o instalador após conferir tamanho e SHA-256. Betas podem estar sem assinatura digital, com aviso na interface; versões estáveis exigem assinatura válida. A instalação mantém preferências e histórico. Na versão portátil, o MSI instala a nova cópia no menu Iniciar; substitua ou remova seu atalho antigo manualmente.
 
 ## Privacidade e suporte
 
@@ -29,7 +29,7 @@ Sem conta no aplicativo, anúncios ou telemetria. Preferências e relatórios fi
 
 Encontrou um problema? [Abra um relato](https://github.com/Zkyzer/devflow-care/issues/new?template=problema.yml), descrevendo a ação, o resultado esperado e o que aconteceu. Anexe o diagnóstico somente depois de revisá-lo.
 
-Esta beta ainda não possui assinatura digital da Devflow. O Windows pode exibir um aviso de editor desconhecido ou bloquear a execução conforme suas configurações. Não desative o antivírus ou as proteções do Windows. Os hashes SHA-256 publicados permitem conferir a integridade; não equivalem a uma assinatura de editor.
+Esta beta ainda não possui assinatura digital do editor. O Windows pode exibir aviso de editor desconhecido ou de reputação. Não desative suas proteções. Os hashes SHA-256 permitem conferir a integridade dos downloads; não equivalem a uma assinatura digital.
 
 Para remover a cópia instalada, use **Configurações → Aplicativos → Devflow Care → Desinstalar**. Preferências e histórico são preservados; remova-os separadamente apenas se desejar.
 
