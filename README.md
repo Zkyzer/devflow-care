@@ -1,11 +1,11 @@
 # Devflow Care
 
-Manutenção para Windows com a identidade da Devflow. Versão **beta 1.10.1-beta.1**, para testes com amigos.
+Manutenção para Windows com a identidade da Devflow. Versão **beta 1.11.0-beta.1**, para testes com amigos.
 
 ## Baixar
 
-- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.10.1-beta.1/Devflow-Care-1.10.1-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
-- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.10.1-beta.1/Devflow-Care-1.10.1-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
+- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.11.0-beta.1/Devflow-Care-1.11.0-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
+- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.11.0-beta.1/Devflow-Care-1.11.0-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
 - [Todas as versões e notas](https://github.com/Zkyzer/devflow-care/releases).
 - [Versão atual em destaque](https://github.com/Zkyzer/devflow-care/releases/latest).
 
@@ -26,6 +26,10 @@ Requer Windows 10 ou 11 x64, .NET Framework 4.8 e Windows PowerShell 5.1. O inst
 O envio de resíduos exige sessão sem administrador, subpasta direta de AppData padrão dentro do perfil atual, unidade local NTFS e até 5.000 itens na verificação. Se um vínculo atual, alteração, item protegido, arquivo bloqueado ou inventário incompleto for detectado, o envio é recusado. Nenhuma heurística comprova ausência de dados importantes: revise o conteúdo antes de confirmar. Use **Ver Lixeira** para consultar ou restaurar pelo Windows; o espaço continua ocupado até esvaziá-la.
 
 A revisão começa em **Todas as pastas analisadas**, incluindo preservadas e itens sem leitura completa. Use os filtros e selecione uma pasta para consultar o primeiro motivo encontrado. Pastas bloqueadas continuam sem opção de envio; o tamanho aparece como um traço quando não foi calculado. Zero candidatas não significa ausência de resíduos.
+
+Escolha **Conta atual · AppData** ou **PC inteiro · unidades locais** antes de analisar. O segundo modo amplia a busca para unidades locais fixas, Program Files, ProgramData e pastas personalizadas. Preserva árvores do Windows, recuperação, Lixeira, pastas pessoais conhecidas, outros perfis, sincronização, links, aplicativos associados e conteúdo protegido ou inacessível. Rede e unidades removíveis ficam fora. A lista explica os bloqueios; não é uma leitura de todos os arquivos do PC.
+
+As pastas da ampliação permitem **abrir e preservar**, com envio à Lixeira bloqueado. A leitura usa metadados da pasta e arquivos diretos, sem calcular tamanhos completos; subpastas acessíveis são avaliadas separadamente. **Total com medição** ignora tamanhos desconhecidos e não promete espaço recuperável dessas pastas. Limites de 20.000 pastas e 250.000 entradas, cancelamento e áreas indisponíveis são informados. A ausência de vínculo não confirma desuso nem exclusão segura.
 
 Abrir o Care não inicia uma limpeza. Use **Analisar arquivos** para conferir a prévia e **Iniciar manutenção** para executar. A manutenção pede a autorização de administrador do Windows; uma autorização com outra conta é recusada.
 
