@@ -1,11 +1,11 @@
 # Devflow Care
 
-Manutenção para Windows com a identidade da Devflow. Versão **beta 1.7.1-beta.1**, para testes com amigos.
+Manutenção para Windows com a identidade da Devflow. Versão **beta 1.8.0-beta.1**, para testes com amigos.
 
 ## Baixar
 
-- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.7.1-beta.1/Devflow-Care-1.7.1-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
-- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.7.1-beta.1/Devflow-Care-1.7.1-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
+- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.8.0-beta.1/Devflow-Care-1.8.0-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
+- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.8.0-beta.1/Devflow-Care-1.8.0-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
 - [Todas as versões e notas](https://github.com/Zkyzer/devflow-care/releases).
 - [Versão atual em destaque](https://github.com/Zkyzer/devflow-care/releases/latest).
 
@@ -16,6 +16,8 @@ Requer Windows 10 ou 11 x64, .NET Framework 4.8 e Windows PowerShell 5.1. O inst
 - Limpeza de Temp do Windows, Temp do usuário, Recentes e Prefetch, com tarefas selecionáveis.
 - Opção de preservar temporários recentes por 7, 14 ou 30 dias, ou **Não preservar**. Arquivos em uso ou sem permissão são ignorados.
 - Análise antes da limpeza, prévia por categoria, relatórios e histórico local.
+- Perfis **Recomendado** (temporários com mais de 7 dias e Limpeza de Disco) e **Personalizado**, com tarefas e prazo salvos. Alternar perfis preserva suas escolhas, inclusive ao reabrir o Care.
+- Analisador de armazenamento: distribuição por pasta, os 100 maiores arquivos, busca e navegação até as pastas. Leitura manual com cancelamento, sem apagar ou mover arquivos. Totais usam os tamanhos lógicos lidos; itens sem acesso, links e conteúdo de nuvem indisponível são ignorados. Resultados ficam apenas em memória.
 - Limpeza de Disco e otimização da unidade do Windows conforme o tipo de mídia.
 - Diagnóstico de CPU, RAM e atividade dos discos.
 - Alívio manual de RAM para aplicativos elegíveis da conta atual, sem fechá-los. O efeito é temporário e pode causar lentidão ao recarregar dados; não garante aumento da RAM disponível.
