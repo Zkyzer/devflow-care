@@ -1,11 +1,11 @@
 # Devflow Care
 
-Ferramentas locais de manutenção do PC e imagens, com a identidade da Devflow. Versão **beta 1.12.0-beta.1**, para testes com amigos.
+Launcher Devflow com os aplicativos **Care**, para manutenção do PC, e **Imagens**, para privacidade de imagens. Versão **beta 1.13.0-beta.1**, para testes com amigos.
 
 ## Baixar
 
-- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.12.0-beta.1/Devflow-Care-1.12.0-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
-- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.12.0-beta.1/Devflow-Care-1.12.0-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
+- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.13.0-beta.1/Devflow-Care-1.13.0-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
+- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.13.0-beta.1/Devflow-Care-1.13.0-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
 - [Todas as versões e notas](https://github.com/Zkyzer/devflow-care/releases).
 - [Versão atual em destaque](https://github.com/Zkyzer/devflow-care/releases/latest).
 
@@ -13,7 +13,8 @@ Requer Windows 10 ou 11 x64, .NET Framework 4.8 e Windows PowerShell 5.1. O inst
 
 ## O que faz
 
-- **Ferramentas → Imagens:** selecione ou arraste até cinco arquivos (100 MB no total) em JPG/JPEG, PNG, WebP, TIFF ou HEIC/HEIF. A leitura mostra origens declaradas e campos encontrados. **Remover metadados** gera cópias em uma nova pasta, com consulta antes/depois, preservando os originais. Processamento local, sem upload, com ExifTool incorporado.
+- **Launcher:** escolha Care ou Imagens ao abrir. **Todos os aplicativos** volta à seleção, mantendo preferências e resultados da sessão. **Sobre e atualizações** fica disponível na abertura.
+- **Imagens:** selecione ou arraste até cinco arquivos (100 MB no total) em JPG/JPEG, PNG, WebP, TIFF ou HEIC/HEIF. O resumo mostra sinais conhecidos de IA e informações encontradas, com campos técnicos recolhidos. **Remover e salvar cópias** pede o destino e preserva os originais. Compare **Original / Cópia limpa** e abra a pasta ao concluir. Em **Opções de limpeza**, manter cores e posição vem ligado. Processamento local, sem upload, com ExifTool incorporado.
 
 - Limpeza de Temp do Windows, Temp do usuário, Recentes e Prefetch, com tarefas selecionáveis.
 - Opção de preservar temporários recentes por 7, 14 ou 30 dias, ou **Não preservar**. Arquivos em uso ou sem permissão são ignorados.
@@ -35,7 +36,7 @@ As pastas da ampliação permitem **abrir e preservar**, com envio à Lixeira bl
 
 Abrir o Care não inicia uma limpeza. Use **Analisar arquivos** para conferir a prévia e **Iniciar manutenção** para executar. A manutenção pede a autorização de administrador do Windows; uma autorização com outra conta é recusada.
 
-Em **Sobre o Care**, use **Verificar atualizações**. No canal beta, o aplicativo consulta as versões públicas apenas quando você clica. Havendo uma versão nova, oferece baixar e abrir o instalador após conferir tamanho e SHA-256. Betas podem estar sem assinatura digital, com aviso na interface; versões estáveis exigem assinatura válida. A instalação mantém preferências e histórico. Na versão portátil, o MSI instala a nova cópia no menu Iniciar; substitua ou remova seu atalho antigo manualmente.
+Em **Sobre e atualizações**, use **Verificar atualizações**. No canal beta, o aplicativo consulta as versões públicas apenas quando você clica. Havendo uma versão nova, oferece baixar e abrir o instalador após conferir tamanho e SHA-256. Betas podem estar sem assinatura digital, com aviso na interface; versões estáveis exigem assinatura válida. A instalação mantém preferências e histórico. Na versão portátil, o MSI instala a nova cópia no menu Iniciar; substitua ou remova seu atalho antigo manualmente.
 
 ## Privacidade e suporte
 
@@ -45,7 +46,7 @@ A remoção trata blocos reconhecidos e removíveis de EXIF, IPTC, XMP, comentá
 
 O motor ExifTool 13.59, de Phil Harvey, é distribuído no pacote Windows de Oliver Betz com fontes e licenças originais incorporadas; créditos em Sobre → Licenças e componentes. Na primeira utilização, é extraído para a pasta local de ferramentas do Care e conferido. Não há download de motor em tempo de execução nem alteração de PATH. Os arquivos de trabalho ficam locais e são normalmente removidos ao terminar; as cópias finais ficam na pasta escolhida.
 
-Sem conta no aplicativo, anúncios ou telemetria. Preferências e relatórios ficam em `%LOCALAPPDATA%\DevflowCare`. A revisão de resíduos também guarda ali um inventário local de aplicativos e as pastas preservadas; esses dados não são incluídos no diagnóstico de suporte. Relatórios completos podem conter caminhos locais: revise-os antes de compartilhar. **Exportar diagnóstico**, em Sobre o Care, gera um resumo sem nomes, caminhos, listas de processos ou mensagens brutas. Nada é enviado automaticamente.
+Sem conta no aplicativo, anúncios ou telemetria. Preferências e relatórios ficam em `%LOCALAPPDATA%\DevflowCare`. A revisão de resíduos também guarda ali um inventário local de aplicativos e as pastas preservadas; esses dados não são incluídos no diagnóstico de suporte. Relatórios completos podem conter caminhos locais: revise-os antes de compartilhar. **Exportar diagnóstico**, em Sobre e atualizações, gera um resumo sem nomes, caminhos, listas de processos ou mensagens brutas. Nada é enviado automaticamente.
 
 Encontrou um problema? [Abra um relato](https://github.com/Zkyzer/devflow-care/issues/new?template=problema.yml), descrevendo a ação, o resultado esperado e o que aconteceu. Anexe o diagnóstico somente depois de revisá-lo.
 
