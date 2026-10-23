@@ -1,11 +1,11 @@
 # Devflow Care
 
-Manutenção para Windows com a identidade da Devflow. Versão **beta 1.8.0-beta.1**, para testes com amigos.
+Manutenção para Windows com a identidade da Devflow. Versão **beta 1.9.0-beta.1**, para testes com amigos.
 
 ## Baixar
 
-- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.8.0-beta.1/Devflow-Care-1.8.0-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
-- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.8.0-beta.1/Devflow-Care-1.8.0-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
+- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.9.0-beta.1/Devflow-Care-1.9.0-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
+- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.9.0-beta.1/Devflow-Care-1.9.0-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
 - [Todas as versões e notas](https://github.com/Zkyzer/devflow-care/releases).
 - [Versão atual em destaque](https://github.com/Zkyzer/devflow-care/releases/latest).
 
@@ -19,6 +19,7 @@ Requer Windows 10 ou 11 x64, .NET Framework 4.8 e Windows PowerShell 5.1. O inst
 - Perfis **Recomendado** (temporários com mais de 7 dias e Limpeza de Disco) e **Personalizado**, com tarefas e prazo salvos. Alternar perfis preserva suas escolhas, inclusive ao reabrir o Care.
 - Analisador de armazenamento: distribuição por pasta, os 100 maiores arquivos, busca e navegação até as pastas. Leitura manual com cancelamento, sem apagar ou mover arquivos. Totais usam os tamanhos lógicos lidos; itens sem acesso, links e conteúdo de nuvem indisponível são ignorados. Resultados ficam apenas em memória.
 - Limpeza de Disco e otimização da unidade do Windows conforme o tipo de mídia.
+- **Armazenamento → Revisar resíduos:** consulta possíveis resíduos nas pastas AppData da conta, com motivos e comparação com inventários locais anteriores. Preserva vínculos encontrados e sinais de programas/dados pessoais. As indicações exigem revisão e não garantem exclusão segura; a tela não apaga arquivos nem entra na limpeza automática. É possível preservar uma pasta nas próximas análises. A primeira leitura ainda não conhece desinstalações anteriores.
 - Diagnóstico de CPU, RAM e atividade dos discos.
 - Alívio manual de RAM para aplicativos elegíveis da conta atual, sem fechá-los. O efeito é temporário e pode causar lentidão ao recarregar dados; não garante aumento da RAM disponível.
 
@@ -28,7 +29,7 @@ Em **Sobre o Care**, use **Verificar atualizações**. No canal beta, o aplicati
 
 ## Privacidade e suporte
 
-Sem conta no aplicativo, anúncios ou telemetria. Preferências e relatórios ficam em `%LOCALAPPDATA%\DevflowCare`. Relatórios completos podem conter caminhos locais: revise-os antes de compartilhar. **Exportar diagnóstico**, em Sobre o Care, gera um resumo sem nomes, caminhos, listas de processos ou mensagens brutas. Nada é enviado automaticamente.
+Sem conta no aplicativo, anúncios ou telemetria. Preferências e relatórios ficam em `%LOCALAPPDATA%\DevflowCare`. A revisão de resíduos também guarda ali um inventário local de aplicativos e as pastas preservadas; esses dados não são incluídos no diagnóstico de suporte. Relatórios completos podem conter caminhos locais: revise-os antes de compartilhar. **Exportar diagnóstico**, em Sobre o Care, gera um resumo sem nomes, caminhos, listas de processos ou mensagens brutas. Nada é enviado automaticamente.
 
 Encontrou um problema? [Abra um relato](https://github.com/Zkyzer/devflow-care/issues/new?template=problema.yml), descrevendo a ação, o resultado esperado e o que aconteceu. Anexe o diagnóstico somente depois de revisá-lo.
 
