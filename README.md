@@ -1,11 +1,11 @@
 # Devflow Care
 
-Manutenção para Windows com a identidade da Devflow. Versão **beta 1.9.0-beta.1**, para testes com amigos.
+Manutenção para Windows com a identidade da Devflow. Versão **beta 1.10.0-beta.1**, para testes com amigos.
 
 ## Baixar
 
-- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.9.0-beta.1/Devflow-Care-1.9.0-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
-- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.9.0-beta.1/Devflow-Care-1.9.0-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
+- **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.10.0-beta.1/Devflow-Care-1.10.0-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
+- [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.10.0-beta.1/Devflow-Care-1.10.0-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
 - [Todas as versões e notas](https://github.com/Zkyzer/devflow-care/releases).
 - [Versão atual em destaque](https://github.com/Zkyzer/devflow-care/releases/latest).
 
@@ -19,9 +19,11 @@ Requer Windows 10 ou 11 x64, .NET Framework 4.8 e Windows PowerShell 5.1. O inst
 - Perfis **Recomendado** (temporários com mais de 7 dias e Limpeza de Disco) e **Personalizado**, com tarefas e prazo salvos. Alternar perfis preserva suas escolhas, inclusive ao reabrir o Care.
 - Analisador de armazenamento: distribuição por pasta, os 100 maiores arquivos, busca e navegação até as pastas. Leitura manual com cancelamento, sem apagar ou mover arquivos. Totais usam os tamanhos lógicos lidos; itens sem acesso, links e conteúdo de nuvem indisponível são ignorados. Resultados ficam apenas em memória.
 - Limpeza de Disco e otimização da unidade do Windows conforme o tipo de mídia.
-- **Armazenamento → Revisar resíduos:** consulta possíveis resíduos nas pastas AppData da conta, com motivos e comparação com inventários locais anteriores. Preserva vínculos encontrados e sinais de programas/dados pessoais. As indicações exigem revisão e não garantem exclusão segura; a tela não apaga arquivos nem entra na limpeza automática. É possível preservar uma pasta nas próximas análises. A primeira leitura ainda não conhece desinstalações anteriores.
+- **Armazenamento → Revisar resíduos:** consulta possíveis resíduos nas pastas AppData da conta, com motivos e comparação com inventários locais anteriores. As indicações exigem revisão e não garantem exclusão segura. Permite preservar uma pasta ou enviá-la à Lixeira, uma por vez, após conferir o caminho e confirmar. O Care refaz as verificações de aplicativos, identidade, alterações e bloqueios antes do envio. A ação fica fora da limpeza de um clique, não oferece exclusão permanente nem esvazia a Lixeira. A primeira leitura ainda não conhece desinstalações anteriores.
 - Diagnóstico de CPU, RAM e atividade dos discos.
 - Alívio manual de RAM para aplicativos elegíveis da conta atual, sem fechá-los. O efeito é temporário e pode causar lentidão ao recarregar dados; não garante aumento da RAM disponível.
+
+O envio de resíduos exige sessão sem administrador, subpasta direta de AppData padrão dentro do perfil atual, unidade local NTFS e até 5.000 itens na verificação. Se um vínculo atual, alteração, item protegido, arquivo bloqueado ou inventário incompleto for detectado, o envio é recusado. Nenhuma heurística comprova ausência de dados importantes: revise o conteúdo antes de confirmar. Use **Ver Lixeira** para consultar ou restaurar pelo Windows; o espaço continua ocupado até esvaziá-la.
 
 Abrir o Care não inicia uma limpeza. Use **Analisar arquivos** para conferir a prévia e **Iniciar manutenção** para executar. A manutenção pede a autorização de administrador do Windows; uma autorização com outra conta é recusada.
 
