@@ -1,0 +1,43 @@
+name: Relatar problema
+description: Ajude a melhorar o Devflow Care beta.
+title: "[Problema] "
+body:
+  - type: markdown
+    attributes:
+      value: "Não inclua dados pessoais, caminhos locais ou relatórios completos. O diagnóstico resumido pode ser exportado em Sobre o Care; revise antes de anexar."
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do Devflow Care
+      placeholder: "Ex.: 1.7.0 beta 1"
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options:
+        - Windows 11
+        - Windows 10
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como reproduzir
+      description: Qual ação você tentou executar?
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: ocorrido
+    attributes:
+      label: O que aconteceu
+      description: Mensagem exibida e detalhes. Revise qualquer anexo para remover dados pessoais.
+    validations:
+      required: true
