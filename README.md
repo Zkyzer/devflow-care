@@ -7,6 +7,7 @@ Manutenção para Windows com a identidade da Devflow. Versão **beta 1.7.1-beta
 - **[Instalador para Windows 64 bits](https://github.com/Zkyzer/devflow-care/releases/download/v1.7.1-beta.1/Devflow-Care-1.7.1-beta.1-win-x64.msi)** — instale para sua conta e abra pelo menu Iniciar.
 - [Versão portátil](https://github.com/Zkyzer/devflow-care/releases/download/v1.7.1-beta.1/Devflow-Care-1.7.1-beta.1-win-x64.zip) — extraia o ZIP inteiro e abra `DevflowCare.exe`.
 - [Todas as versões e notas](https://github.com/Zkyzer/devflow-care/releases).
+- [Versão atual em destaque](https://github.com/Zkyzer/devflow-care/releases/latest).
 
 Requer Windows 10 ou 11 x64, .NET Framework 4.8 e Windows PowerShell 5.1. O instalador verifica Windows e .NET; não baixa dependências automaticamente.
 
